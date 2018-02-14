@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:shimmer="http://schemas.android.com/tools"
+            style="@style/Scrollview_Style"
+            android:background="@drawable/back2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:alpha="0.5"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/background1"/>-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="#000"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="3dp"
+                app:cardUseCompatPadding="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:alpha="0.4"
+                    android:background="#000000"
+                    android:scaleType="center"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.example.gavinash.str.utils.ShimmerFrameLayout
+                        android:id="@+id/shimmer_view_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.5"
+                        android:layout_weight="1"
+                        shimmer:duration="5000">
+
+                        <ImageView
+                            android:id="@+id/logo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_scholar"
+                            android:visibility="visible"/>
+                    </com.example.gavinash.str.utils.ShimmerFrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:descendantFocusability="beforeDescendants"
+                        android:orientation="vertical"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:paddingTop="30dp">
+
+                        <com.example.gavinash.str.utils.EditTextClearable
+                            android:id="@+id/username"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/edit_text"
+                            android:drawableLeft="@drawable/mt_user"
+                            android:drawablePadding="15dp"
+                            android:elevation="-10dp"
+                            android:focusable="false"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:hint="UserName"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="15dp"
+                            android:singleLine="true"
+                            android:textColor="#99fefefe"
+                            android:textColorHint="#99FFFFFF"
+                            android:textSize="14sp"/>
+
+                        <com.example.gavinash.str.utils.EditTextClearable
+                            android:id="@+id/password"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/edit_text"
+                            android:drawableLeft="@drawable/ic_lock"
+                            android:drawablePadding="15dp"
+                            android:elevation="-10dp"
+                            android:focusable="false"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center_vertical"
+                            android:hint="Password"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:paddingLeft="20dp"
+                            android:paddingRight="15dp"
+                            android:singleLine="true"
+                            android:textColor="#99fefefe"
+                            android:textColorHint="#99FFFFFF"
+                            android:textSize="14sp"/>
+
+                        <com.example.gavinash.str.utils.ButtonTouchEffect
+                            android:id="@+id/sign_in"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="30dp"
+                            android:alpha="0.5"
+                            android:background="@drawable/back1"
+                            android:gravity="center"
+                            android:paddingBottom="10dp"
+                            android:paddingLeft="30dp"
+                            android:paddingRight="30dp"
+                            android:paddingTop="10dp"
+                            android:text="SIGN IN"
+                            android:textColor="#99000000"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/create_account"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="20dp"
+                            android:alpha="0.5"
+                            android:background="@drawable/touch_effect_corner"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="@string/noaccount"
+                            android:textColor="#FFFFFF"
+                            android:textSize="13sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        <!--</FrameLayout>-->
+    </RelativeLayout>
+
+</ScrollView>

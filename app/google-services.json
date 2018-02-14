@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "692739294425",
+    "firebase_url": "https://ngrid-58ef2.firebaseio.com",
+    "project_id": "ngrid-58ef2",
+    "storage_bucket": "ngrid-58ef2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692739294425:android:7924933482a16884",
+        "android_client_info": {
+          "package_name": "com.septems.avinash.ngrid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692739294425-0k5hb38b6qqb23qdpmisvs9rlo1m9g5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.septems.avinash.ngrid",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "692739294425-suaep4gg7ko7csrfif97nd8r3o7hksi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgEx8Lj5IKnfkWL2-taeO9P0HiFjnIk1Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692739294425-suaep4gg7ko7csrfif97nd8r3o7hksi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

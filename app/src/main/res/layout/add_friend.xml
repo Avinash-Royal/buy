@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/select_close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/touch_effect_rectangle"
+            android:padding="5dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Friend"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Material.DialogWindowTitle"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+
+    <com.example.gavinash.str.utils.EditTextClearable
+        android:id="@+id/add_friend_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/input_outline"
+        android:hint="Enter Email Address" />
+
+</LinearLayout>

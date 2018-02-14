@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/root_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#050002">
+
+    <TextView android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:text="New Assignment"/>
+
+    <ScrollView style="@style/Scrollview_Style"
+        android:layout_below="@+id/title"
+        android:fadeScrollbars="true"
+        android:fadingEdgeLength="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!--<ImageView-->
+                <!--android:id="@+id/image_pdf"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:visibility="gone"-->
+                <!--android:theme="@style/AlertDialog.AppCompat.Light"/>-->
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+                android:textColorHint="#88FFFFFF">
+
+                <com.septems.avinash.ngrid.utils.EditTextClearable
+                    android:id="@+id/Edit_Subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#66FFFFFF"
+                    android:hint="Name of the Subject"
+                    android:maxLines="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+                android:textColorHint="#88FFFFFF">
+
+                <com.septems.avinash.ngrid.utils.EditTextClearable
+                    android:id="@+id/Edit_Startdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#66FFFFFF"
+                    android:hint="Start Date"
+                    android:maxLines="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:passwordToggleTint="#fff"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
+                android:textColorHint="#88FFFFFF">
+
+                <com.septems.avinash.ngrid.utils.EditTextClearable
+                    android:id="@+id/Edit_Enddate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#66FFFFFF"
+                    android:hint="End Date"
+                    android:maxLines="1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <com.septems.avinash.ngrid.utils.EditTextClearable
+                android:id="@+id/Edit_Description"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_description"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:gravity="top"
+                android:backgroundTint="#fff"
+                android:hint="Description"
+                android:textColorHint="#88FFFFFF"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#44ffffff"
+                    android:paddingEnd="15dp"
+                    android:gravity="right"
+                    android:text="PDF/JPG/JPEG/PNG files only" />
+
+                <Button android:id="@+id/image_pdf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:background="#5F5F5F"
+                        android:foreground="@drawable/touch_effect_rectangle"
+                        android:gravity="center"
+                        android:layout_gravity="right"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="Upload"
+                        android:textAllCaps="false"
+                        android:textColor="#99FFFFFF"
+                        android:textSize="14sp" />
+            </LinearLayout>
+
+            <com.septems.avinash.ngrid.utils.ButtonTouchEffect
+                android:id="@+id/submit_post"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:alpha="0.5"
+                android:background="@drawable/back1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="10dp"
+                android:text="POST"
+                android:textColor="#99000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab_new_post"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:src="@drawable/ic_image_edit"-->
+        <!--app:fabSize="mini"-->
+        <!--app:useCompatPadding="true"/>-->
+</RelativeLayout>

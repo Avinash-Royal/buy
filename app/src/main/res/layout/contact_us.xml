@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Scrollview_Style"
+    android:background="@mipmap/b">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        app:cardBackgroundColor="#22ffffff"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="MALLA REDDY ENGINEERING COLLEGE (Autonomous)"
+                android:textAllCaps="false"
+                android:lineSpacingMultiplier="1.2"
+                android:layout_marginBottom="5dp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Address :"
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingMultiplier="1.2"
+                android:text="Maisammaguda, Dhulapally (Post via. Kompally),Secunderabad - 500100 Rangareddy Dt. Telangana, India."
+                android:textSize="17sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingMultiplier="1.3"
+                android:autoLink="phone"
+                android:textColor="@android:color/background_light"
+                android:textColorLink="@android:color/holo_blue_bright"
+                android:text="Phone :  (040) 64632246 / (040) 65864982"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoLink="phone"
+                android:lineSpacingMultiplier="1.3"
+                android:textColor="@android:color/background_light"
+                android:textColorLink="@android:color/holo_blue_bright"
+                android:text="Cell : 9676999873  /  9348161303  /  9348161125"
+                android:textSize="17sp"/>
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</ScrollView>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:background="#000"
+            android:fillViewport="true"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbars="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:background="@drawable/background2"
+            android:foreground="#77ffffff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:id="@+id/layout_mr11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <android.support.v7.widget.CardView
+                    style="@style/Syllabus_BranchCardView">
+
+                    <com.example.gavinash.str.utils.ButtonTouchEffect
+                        android:id="@+id/branch_remains"
+                        style="@style/Syllabus_BranchTextItem"
+                        android:text="1st BTech-IT CSE ECE EEE-Syllabus-Book"/>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    style="@style/Syllabus_BranchCardView">
+
+                    <com.example.gavinash.str.utils.ButtonTouchEffect
+                        android:id="@+id/ce_me"
+                        style="@style/Syllabus_BranchTextItem"
+                        android:text="1st BTech-CE ME-Syllabus-Book"/>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/layout_civil"
+                style="@style/Syllabus_BranchCardView">
+
+                <com.example.gavinash.str.utils.ButtonTouchEffect
+                    android:id="@+id/civil"
+                    style="@style/Syllabus_BranchTextItem"
+                    android:text="Civil Engineering (CE)"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/layout_cse"
+                style="@style/Syllabus_BranchCardView">
+
+                <com.example.gavinash.str.utils.ButtonTouchEffect
+                    android:id="@+id/cse"
+                    style="@style/Syllabus_BranchTextItem"
+                    android:text="Computer Science &amp; Engineering (CSE)"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/layout_ece"
+                style="@style/Syllabus_BranchCardView">
+
+                <com.example.gavinash.str.utils.ButtonTouchEffect
+                    android:id="@+id/ece"
+                    style="@style/Syllabus_BranchTextItem"
+                    android:text="Electronics &amp; Communications Engineering (ECE)"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/layout_eee"
+                style="@style/Syllabus_BranchCardView">
+
+                <com.example.gavinash.str.utils.ButtonTouchEffect
+                    android:id="@+id/eee"
+                    style="@style/Syllabus_BranchTextItem"
+                    android:text="Electrical &amp; Electronics Engineering (EEE)"/>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/layout_mr13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <android.support.v7.widget.CardView
+                    style="@style/Syllabus_BranchCardView">
+
+                    <com.example.gavinash.str.utils.ButtonTouchEffect
+                        android:id="@+id/ece_1"
+                        style="@style/Syllabus_BranchTextItem"
+                        android:text="Electronics &amp; Communications Engineering (ECE)I Year"/>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    style="@style/Syllabus_BranchCardView">
+
+                    <com.example.gavinash.str.utils.ButtonTouchEffect
+                        android:id="@+id/ece_234"
+                        style="@style/Syllabus_BranchTextItem"
+                        android:text="Electronics &amp; Communications Engineering (ECE)II,III &amp; IV Years"/>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/layout_it"
+                style="@style/Syllabus_BranchCardView">
+
+                <com.example.gavinash.str.utils.ButtonTouchEffect
+                    android:id="@+id/it"
+                    style="@style/Syllabus_BranchTextItem"
+                    android:text="Information Technology (IT)"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/layout_mechanical"
+                style="@style/Syllabus_BranchCardView">
+
+                <com.example.gavinash.str.utils.ButtonTouchEffect
+                    android:id="@+id/mechanical"
+                    style="@style/Syllabus_BranchTextItem"
+                    android:text="Mechanical Engineering (ME)"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/layout_mining"
+                style="@style/Syllabus_BranchCardView">
+
+                <com.example.gavinash.str.utils.ButtonTouchEffect
+                    android:id="@+id/mining"
+                    style="@style/Syllabus_BranchTextItem"
+                    android:text="Mining Engineering"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

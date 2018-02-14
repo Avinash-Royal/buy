@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:alpha="0.2"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/Order_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:scrollbarThumbVertical="@drawable/scroll_thumb"
+            android:scrollbarSize="3dp"
+            android:clipToPadding="false"
+            android:scrollbars="vertical"
+            android:paddingBottom="10dp"
+            tools:listitem="@layout/item_order"/>
+    </RelativeLayout>
+
+    <ImageView android:id="@+id/view_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#88000000"
+        android:scaleType="fitCenter"
+        android:visibility="gone"/>
+</FrameLayout>

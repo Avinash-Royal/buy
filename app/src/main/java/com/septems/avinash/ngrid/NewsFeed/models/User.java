@@ -1,0 +1,33 @@
+package com.septems.avinash.ngrid.NewsFeed.models;
+
+import android.net.Uri;
+import android.view.View;
+
+import com.google.firebase.database.IgnoreExtraProperties;
+
+// [START blog_user_class]
+@IgnoreExtraProperties
+public class User {
+
+    public String username;
+    public String email;
+    private View view;
+    private Uri mImageUri = null;
+
+
+    public User() {
+//         Default constructor required for calls to DataSnapshot.getValue(User.class)
+    }
+
+    public User(String username, String email, Uri ImageUri) {
+        this.username = username;
+        this.email = email;
+        this.mImageUri = ImageUri;
+    }
+
+    public User(String username, String email) {
+        this.username = username;
+        this.email = email;
+    }
+}
+// [END blog_user_class]

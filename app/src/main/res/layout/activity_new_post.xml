@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/root_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#050002">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:text="New Post"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        style="@style/scrollbar_shape_style"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#88FFFFFF"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                <com.septems.avinash.ngrid.utils.EditTextClearable
+                    android:id="@+id/field_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#66FFFFFF"
+                    android:hint="Title"
+                    android:maxLines="2"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColorHint="#88FFFFFF"
+                app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                <com.septems.avinash.ngrid.utils.EditTextClearable
+                    android:id="@+id/field_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#66FFFFFF"
+                    android:hint="Write your post..."
+                    android:scrollbarStyle="insideInset"
+                    android:scrollbars="vertical"
+                    android:overScrollMode="always"
+                    android:maxHeight="150dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/image_upload"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="15dp"
+                android:background="#5F5F5F"
+                android:foreground="@drawable/touch_effect_rectangle"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Upload Image"
+                android:textAllCaps="false"
+                android:textColor="#99FFFFFF"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/uploaded_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="centerInside"
+                android:visibility="gone"/>
+
+            <com.septems.avinash.ngrid.utils.ButtonTouchEffect
+                android:id="@+id/submit_post"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:alpha="0.5"
+                android:background="@drawable/back1"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="10dp"
+                android:text="POST"
+                android:textColor="#99000000"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<ImageView-->
+    <!--android:id="@+id/image_upload"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="150dp"-->
+    <!--android:src="@drawable/default_avata"-->
+    <!--android:visibility="gone"/>-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/fab_submit_post"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_margin="16dp"-->
+    <!--android:src="@drawable/ic_navigation_check_24"/>-->
+
+</RelativeLayout>

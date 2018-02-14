@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        style="@style/Scrollview_Style"
+        android:background="@mipmap/b">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="#33000000">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#22ffffff"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.example.gavinash.str.utils.CircleImage
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/chairman"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:text="Founder Chairman Message"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="Sri. Ch. Malla Reddy\n (Founder Chairman, MRGI)"
+                        android:textColor="@android:color/holo_orange_light"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif"
+                        android:inputType="textMultiLine"
+                        android:lineSpacingMultiplier="1.2"
+                        android:gravity="center"
+                        android:text="Malla Reddy Engineering College was established with the main intention to bring out quality Engineers who would contribute towards a well built India. Here we encourage students to involve in innovative research works and a holistic learning process. This we are sure will pave way to quality output and future leaders of our nation striving towards Excellence in the truest of the meaning! I wish all the members of the fraternity and our students the very best in their future endeavor."
+                        android:textColor="#fff"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#22ffffff"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.example.gavinash.str.utils.CircleImage
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/secretery"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Secretary Message"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="Sri. Ch. Mahender Reddy\n(Secretary, MRGI)"
+                        android:textColor="@android:color/holo_orange_light"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="The recent achievements of our students nationally and internationally, we are sure our students would leave positive impressions on the globe enabling the values of the college to reach far and wide. I wish each of our graduating students a very enriching and a fruitful future that would help them climb up the ladder of success with ease."
+                        android:textColor="#fff"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#22ffffff"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.example.gavinash.str.utils.CircleImage
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/treasurer1"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Treasurer Message"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="Dr. Ch. Bhadra Reddy\n(Treasurer, MRGI)"
+                        android:textColor="@android:color/holo_orange_light"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="I have complete faith in the overall training and the developmental activities that have presently been initiated in our college. These quality programs and the help of TEQIP/world bank assistance have opened many doors and avenues for our students to excel and emerge in flying colours. I wish each and every student and Faculty member of our college to work till Excellence is reached .Warm wishes to all for a very rewarding and an enriching future"
+                        android:textColor="#fff"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#22ffffff"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.example.gavinash.str.utils.CircleImage
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/principal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Principal Message"
+                        android:textColor="@android:color/holo_blue_light"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="Dr.S. Sudhakara Reddy\n(Principal, MREC(Autonomous))"
+                        android:textColor="@android:color/holo_orange_light"
+                        android:textSize="18sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:lineSpacingMultiplier="1.2"
+                        android:text="After having launched Mangalyaan successfully in the orbit of Mars, Indian Scientists now dream about newer inventions and discoveries with great ingenious ideas and brains, I believe that we have great future for our nation. With this strong belief, we at MREC have initiated a number of programs for the faculty and the students to get upgraded and updated with the technology so that we may work on par with the global standards. While involving students in greater academic persuits, we also encourage them to work in the areas of green technologies, innovations, social entrepreneurship and areas that make them all rounders. With these ideas, we believe in bringing out graduates who would be global citizens with human touch working towards a technologically advanced nation"
+                        android:textColor="#fff"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

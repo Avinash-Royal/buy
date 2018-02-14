@@ -1,0 +1,48 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hangoutTvOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="@string/dot"
+        android:textColor="#0c10e4"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/hangoutTvTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/hangoutTvOne"
+        android:text="@string/dot"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/hangoutTvThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/hangoutTvTwo"
+        android:text="@string/dot"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="60sp" />
+    <TextView
+        android:id="@+id/hangoutTvfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/hangoutTvThree"
+        android:text="@string/dot"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="60sp" />
+    <TextView
+        android:id="@+id/hangoutTvfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/hangoutTvfour"
+        android:text="@string/dot"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="60sp" />
+</merge>

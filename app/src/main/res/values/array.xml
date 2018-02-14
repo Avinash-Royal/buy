@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="mr17" formatted = "false">
+        <item>civil,http://mrec.ac.in/Syllabus/I%20B.Tech%20CE%20SYLLABUS.pdf</item>
+        <item>mechanical,http://mrec.ac.in/Syllabus/I%20B.Tech%20ME%20SYLLABUS.pdf</item>
+        <item>cse,http://mrec.ac.in/Syllabus/I%20B.TECH%20CSE%20SYLLABUS.pdf</item>
+        <item>ece,http://mrec.ac.in/Syllabus/I%20B.Tech%20ECE%20SYLLABUS.pdf</item>
+        <item>eee,http://mrec.ac.in/Syllabus/I%20B.Tech%20EEE%20SYLLABUS.pdf</item>
+        <item>it,http://mrec.ac.in/Syllabus/I%20B.Tech%20IT%20SYLLABUS.pdf</item>
+        <item>mining,http://mrec.ac.in/Syllabus/I%20B.Tech%20MINING%20SYLLABUS.pdf</item>
+    </string-array>
+    <string-array name="mr15" formatted = "false">
+        <item>civil,http://mrec.ac.in/Syllabus/MR15-CIVIL%20Engineering.pdf</item>
+        <item>mechanical,http://mrec.ac.in/Syllabus/MR15-Mechanical%20Engineering.pdf</item>
+        <item>cse,http://mrec.ac.in/Syllabus/MR15-Compuer%20Science%20Engineering.pdf</item>
+        <item>ece,http://mrec.ac.in/Syllabus/MR15-Electronics%20Communications%20Engineering.pdf</item>
+        <item>eee,http://mrec.ac.in/Syllabus/MR15-Electrical%20Electronics%20Engineering.pdf</item>
+        <item>mining,http://mrec.ac.in/Syllabus/MR15-Mining%20Engineering.pdf</item>
+    </string-array>
+    <string-array name="mr14" formatted = "false">
+        <item>civil,http://mrec.ac.in/Syllabus/CE_2014_15.pdf</item>
+        <item>mechanical,http://mrec.ac.in/Syllabus/ME_2014_15.pdf</item>
+        <item>cse,http://mrec.ac.in/Syllabus/CSE_2014_15.pdf</item>
+        <item>ece,http://mrec.ac.in/Syllabus/ECE_2014_15.pdf</item>
+        <item>eee,http://mrec.ac.in/Syllabus/EEE_2014_15.pdf</item>
+        <item>mining,http://mrec.ac.in/Syllabus/MINING_2014_15.pdf</item>
+    </string-array>
+    <string-array name="mr13" formatted = "false">
+        <item>civil,http://mrec.ac.in/Syllabus/MREC-MR13-BTech-CE-Syllabus-Book.pdf</item>
+        <item>mechanical,http://mrec.ac.in/Syllabus/MREC-MR13-BTech-ME-Syllabus-Book.pdf</item>
+        <item>cse,http://mrec.ac.in/Syllabus/MREC-MR13-BTech-CSE-Syllabus-Book.pdf</item>
+        <item>ece1,http://mrec.ac.in/Syllabus/MREC-MR13-BTech-ECE-Syllabus-Book.pdf</item>
+        <item>ece234,http://mrec.ac.in/Syllabus/B.Tech-MR-13-ECE-II-year.pdf</item>
+        <item>eee,http://mrec.ac.in/Syllabus/MREC-MR13-BTech-EEE-Syllabus-Book.pdf</item>
+        <item>it,http://mrec.ac.in/Syllabus/I%20B.Tech%20IT%20SYLLABUS.pdf</item>
+        <item>mining,http://mrec.ac.in/Syllabus/MREC-MR13-BTech-MINING-Syllabus-Book.pdf</item>
+    </string-array>
+    <string-array name="mr12" formatted = "false">
+        <item>civil,http://mrec.ac.in/Syllabus/MREC-MR12-BTech-CE-Syllabus-Book.pdf</item>
+        <item>mechanical,http://mrec.ac.in/Syllabus/MREC-MR12-BTech-ME-Syllabus-Book.pdf</item>
+        <item>cse,http://mrec.ac.in/Syllabus/MREC-MR12-BTech-CSE-Syllabus-Book.pdf</item>
+        <item>ece,http://mrec.ac.in/Syllabus/MREC-MR12-BTech-ECE-Syllabus-Book.pdf</item>
+        <item>eee,http://mrec.ac.in/Syllabus/MREC-MR12-BTech-EEE-Syllabus-Book.pdf</item>
+        <item>it,http://mrec.ac.in/Syllabus/MREC-MR12-BTech-IT-Syllabus-Book.pdf</item>
+    </string-array>
+    <string-array name="mr11" formatted = "false">
+        <item>civil,http://mrec.ac.in/Syllabus/MREC-MR11-BTech-CE-Syllabus-Book.pdf</item>
+        <item>mechanical,http://mrec.ac.in/Syllabus/MREC-MR11-BTech-ME-Syllabus-Book.pdf</item>
+        <item>cse,http://mrec.ac.in/Syllabus/MREC-MR11-BTech-CSE-Syllabus-Book.pdf</item>
+        <item>ece,http://mrec.ac.in/Syllabus/MREC-MR11-BTech-ECE-Syllabus-Book.pdf</item>
+        <item>eee,http://mrec.ac.in/Syllabus/MREC-MR11-BTech-EEE-Syllabus-Book.pdf</item>
+        <item>it,http://mrec.ac.in/Syllabus/MREC-MR11-BTech-IT-Syllabus-Book.pdf</item>
+        <item>ce_me,http://mrec.ac.in/Syllabus/MREC-MR11-Ist-BTech-CE-ME-Syllabus-Book.pdf</item>
+        <item>branch_remains,http://mrec.ac.in/Syllabus/MREC-MR11-Ist-BTech-IT-CSE-ECE-EEE-Syllabus-Book.pdf</item>
+    </string-array>
+
+    <string-array name="routes">
+        <item>Select Route</item>
+        <item>6 No. Road</item>
+        <item>Ameerpet</item>
+        <item>Attapur</item>
+        <item>Balanagar</item>
+        <item>BHEL</item>
+    </string-array>
+
+    <string-array name="buses">
+        <item>Select Bus</item>
+        <item>4623</item>
+        <item>1217</item>
+        <item>7331</item>
+        <item>0746</item>
+        <item>4536</item>
+    </string-array>
+
+    <string-array name="bus_4623">
+        <item>17.408904,78.506435,Ramnagar Bus Stop</item>
+        <item>17.403944,78.504384,VST Main Road</item>
+        <item>17.3878317,78.4875454,RTC X Roads</item>
+        <item>17.4099227,78.4876338,Ashok Nagar X Roads</item>
+        <item>17.537158,78.490059,Jayabheri Road</item>
+        <item>17.560231,78.451366,Mallareddy College of Engineering</item>
+    </string-array>
+
+    <string-array name="bus_1217">
+        <item>17.4542812,78.4200747,Motinagar Bus Stop</item>
+        <item>17.4304494,78.4465146,Ameerpet(Big Bazar)</item>
+        <item>17.4383282,78.4425436,Mythrivanam Bus Stop</item>
+        <item>17.4564653,78.4314796,Erragadda Bus Stop</item>
+        <item>17.462722,78.4288104,Bharat Nagar FlyOver</item>
+        <item>17.4717656,78.4241357,Moosapet Bus Stop</item>
+        <item>17.4407072,78.4443757,S R Nagar</item>
+        <item>17.4475229,78.4468879,Balkhampet Yellamma Temple</item>
+        <item>17.4647471,78.4578997,Ferozeguda BHEL(R&amp;D)</item>
+        <item>17.560231,78.451366,Mallareddy College of Engineering</item>
+    </string-array>
+
+</resources>

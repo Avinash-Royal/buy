@@ -1,0 +1,102 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Scrollview_Style"
+    android:id="@+id/scroll"
+    android:background="@mipmap/b">
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true">
+
+        <!--<ImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@mipmap/b"/>-->
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/profile"-->
+        <!--android:background="@color/grey_100"-->
+        <!--app:layout_aspectRatio="150%"-->
+        <!--app:layout_widthPercent="100%">-->
+
+        <LinearLayout
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:cardBackgroundColor="#22ffffff"
+                app:cardCornerRadius="7dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <com.septems.avinash.ngrid.utils.CircleImage
+                        android:id="@+id/img_avatar"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginBottom="20dp"
+                        android:src="@drawable/salman1"/>
+
+                    <TextView
+                        android:id="@+id/tv_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Gotluri Avinash"
+                        android:textColor="@android:color/holo_blue_bright"
+                        android:textSize="18dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<ImageView-->
+        <!--android:id="@+id/img_avatar"-->
+        <!--android:layout_width="104dp"-->
+        <!--android:layout_height="104dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:background="#00000000"-->
+        <!--android:src="@drawable/default_avata"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/tv_username"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="32dp"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:textSize="24sp"/>-->
+        <!--</LinearLayout>-->
+        <!--</RelativeLayout>-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/info_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile"
+            android:scrollbars="vertical"/>
+
+    </android.support.percent.PercentRelativeLayout>
+</ScrollView>
